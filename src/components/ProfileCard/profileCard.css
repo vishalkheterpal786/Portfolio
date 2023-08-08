@@ -1,0 +1,55 @@
+:root{
+    --bgcolor:#04b4e0
+}
+
+.profilePicBase{
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    align-items: center;
+    padding:  70px 30px 45px;
+    overflow:  auto;
+    
+}
+.profilePic{
+    width: 200px;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 50%;
+   
+}
+.name{
+    text-align: center;
+    margin: 0;
+}
+.socialMediaLogo{
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+}
+.profileCardUl{
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+ul > li >a :hover{
+    border-radius: 50%;
+    background-color:  rgba(255,255,255,.2)
+}
+
+button {
+    background-color: var(--bgcolor);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    padding: .8em 2.1em;
+    transition:  all .3s ease-in-out;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: white;
+    color: var(--bgcolor);
+}
