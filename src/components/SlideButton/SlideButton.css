@@ -1,0 +1,16 @@
+.profileButton{
+    border: 1px solid #ffb400;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ffb400 50%, white 50%);
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    background-size: 200% 100%;
+}
+.profileButton:hover{
+    background-position: left bottom;
+}
