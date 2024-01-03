@@ -15,6 +15,7 @@ function Menu() {
             src={homeLogo}
             alt='linkedin image'
           ></img>
+          
         </a>
       </li>
       <li>
