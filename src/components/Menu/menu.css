@@ -16,10 +16,3 @@
     border-radius: 50%;
     background-color:  rgb(32, 142, 239)
 }
-.menuItem:hover::before{
-    content: "Look at this orange box.";
-    background-color: #ffba10;
-    border-color: black;
-    border-style: dotted;
-    float: left;
-}

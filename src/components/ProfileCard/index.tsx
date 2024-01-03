@@ -16,7 +16,10 @@ function ProfileCard(user: userDetails) {
       <h4>{user.job}</h4>
       <ul className='profileCardUl'>
         <li>
-          <a href='' target='blaank'>
+          <a
+            href='https://www.linkedin.com/in/vishal-kheterpal-17b4671b/'
+            target='blank'
+          >
             <img
               className='socialMediaLogo'
               src={linkedinLogo}
@@ -25,7 +28,7 @@ function ProfileCard(user: userDetails) {
           </a>
         </li>
         <li>
-          <a href='' target='blaank'>
+          <a href='https://twitter.com/' target='blank'>
             <img
               className='socialMediaLogo'
               src={twitterLogo}
@@ -34,7 +37,7 @@ function ProfileCard(user: userDetails) {
           </a>
         </li>
         <li>
-          <a href='' target='blaank'>
+          <a href='https://www.facebook.com/' target='blank'>
             <img
               className='socialMediaLogo'
               src={facebookLogo}
@@ -44,7 +47,7 @@ function ProfileCard(user: userDetails) {
         </li>
       </ul>
 
-      <button>Download CV</button>
+      <button className='cvButton'>Download CV</button>
     </div>
   )
 }
