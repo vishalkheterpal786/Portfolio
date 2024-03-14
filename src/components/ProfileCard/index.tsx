@@ -17,7 +17,7 @@ function ProfileCard(user: userDetails) {
       <ul className='profileCardUl'>
         <li>
           <a
-            href='https://www.linkedin.com/in/vishal-kheterpal-17b4671b/'
+            href='https://www.linkedin.com/in/vishal-kheterpal'
             target='blank'
           >
             <img
