@@ -4,21 +4,22 @@
 }
 .rootLayout{
   display: flex;
+  /*animation-name: rootLayout-anim ;
+  animation-duration: 2s;*/
 }
 .baselayout{
   background-color: var(--bgcolor);
   width: 100%;
-  
   border-radius: 30px;
   display: flex;
 }
 
-@keyframes logo-spin {
+@keyframes rootLayout-anim {
   from {
-    transform: rotate(0deg);
+    transform: scale(0,0);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(1,1);
   }
 }
 

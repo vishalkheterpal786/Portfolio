@@ -1,0 +1,19 @@
+.borderlayout{
+    background-color: white;
+    border-radius: 12px;
+    animation-name: aboutSec;
+    animation-duration: 2s;
+
+}
+.aboutText{
+    padding: 5px;
+    color: black;
+}
+@keyframes aboutSec {
+    from{
+        transform: scale(0,0);
+    }
+    to{
+        transform: scale(1,1);
+    }
+}
