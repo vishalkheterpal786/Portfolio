@@ -1,0 +1,13 @@
+.borderlayout{
+    border-radius: 2px;
+    animation-name: aboutSec;
+    animation-duration: 2ms
+}
+@keyframes aboutSec {
+    from{
+        scale: (0,1);
+    }
+    to{
+        scale: (1,1);
+    }
+}
